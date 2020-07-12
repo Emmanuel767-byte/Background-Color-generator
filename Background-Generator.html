@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background</title>
+    <link rel="stylesheet" type="text/css" href="./Background-Styles.css">
+</head>
+<body id="gradient">
+    <h1>Background Generator</h1>
+    <input oninput="setGradient()" type="color" class="color1" value="#00ff00">
+    <input oninput="setGradient()" type="color" class="color2" value="#ff0000"> 
+    <h2>Current CSS Background</h2>
+    <h3></h3>      <h4></h4>
+    <button onclick="randomColor()" id="RandomBtn">Random</button>
+    <script type="text/javascript"src="./background-Gen-JS.js"></script>
+</body>
+</html>
+<!--how to give a background a gradient color
+background:linear-gradient(to right,(direction), red, yellow)-->
